@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  color: #3a3a3a;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+}
+
+.wrapper::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.body-container {
+  display: inline-block;
+  width: 80%;
+}
+
+header {
+  display: inline-block;
+  width: 80%;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+aside {
+  display: inline-block;
+  padding-top: 100px;
+  width: 20%;
+  float: right;
+  text-align: center;
+}
+
+aside::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.avatar {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-image: url('../img/avatar.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-right: 10%;
+}
+
+footer {
+  display: block;
+  margin-top: 60px;
+}
+
+h1 {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/*--- About me ---*/
+.bio {
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.bio p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.bio span {
+  font-weight: bold;
+}
+
+/*--- Footer ---*/
+.copyright {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border-top: 1px solid #999;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
